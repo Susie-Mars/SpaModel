@@ -1,0 +1,40 @@
+@model Posting
+<div class="border border-dark m-2 p-2 bg-light">
+    <form asp-action="CreatePost" asp-controller="Home" method="post">
+        <div class="form-group">
+            <input asp-for="ServiceType" class="form-control form-control-sm" placeholder="Service Type">
+            <span asp-validation-for="ServiceType" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <input asp-for="Location" class="form-control form-control-sm mt-2" placeholder="Location">
+            <span asp-validation-for="Location" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <input asp-for="Website" class="form-control form-control-sm mt-2" placeholder="Website">
+            <span asp-validation-for="Website" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="Date">Date:</label>
+            <input asp-for="Date" class="form-control form-control-sm mt-2" type="date">
+            <span asp-validation-for="Date" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="Time">Time:</label>
+            <input asp-for="Time" class="form-control form-control-sm mt-2" type="time">
+            <span asp-validation-for="Time" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <input asp-for="ContactInfo" class="form-control form-control-sm mt-2" placeholder="Contact Info (ex: jane@gmail.com">
+            <span asp-validation-for="ContactInfo" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <input asp-for="Description" type="textarea" rows="5" class="form-control form-control-sm mt-2" placeholder="Service Description">
+            <span asp-validation-for="Description" class="text-danger"></span>
+        </div>
+        <div class="d-flex justify-content-end">
+            <input type="submit" class="mt-2 btn btn-sm btn-dark text-light" value="Create Post" />
+
+        </div>
+
+    </form>
+</div>

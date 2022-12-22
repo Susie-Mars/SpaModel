@@ -1,0 +1,39 @@
+@model Posting
+<div>
+    <div class="d-flex border-bottom border-dark m-2 justify-content-between navBar">
+        <h1>Spa Model</h1>
+        <div class="d-flex gap-3 mt-4 p-3">
+            <a href="/bodytreatments" class="link-light">Body Treatments</a>
+            <a href="/facials" class="link-light">Facials</a>
+            <a href="/nailservices" class="link-light">Nail Services</a>
+            <a href="/" class="link-light">Home</a>
+        </div>
+    </div>
+    <div class="d-flex align-items-center justify-content-center flex-column">
+        <h2>All Body Treatments</h2>
+        <div class="d-flex flex-column m-2 w-50">
+            @foreach (Posting p in ViewBag.BodyTreatments)
+            {
+                <div class="border border-dark m-1 p-3 bg-light opacity-75">
+                    <p><strong>Service Type:</strong> @p.ServiceType</p>
+                    <p><strong>Location:</strong> @p.Location</p>
+                    <div class="d-flex gap-2">
+                        <p><strong>Website:</strong></p>
+                        <a href="http://@p.Website">@p.Website</a>
+                    </div>
+                    <div class="d-flex gap-2">
+                        <p><strong>Date:</strong> @p.Date.ToString("MM/dd/yyyy")</p>
+                        <p><strong>at</strong> @p.Time.ToString("h:mm tt")</p>
+                    </div>
+                    <div class="d-flex gap-2">
+                        <p><strong>Contact Info:</strong></p>
+                        <a href="mailto: @p.ContactInfo">@p.ContactInfo</a>
+                    </div>
+
+                    <p><strong>Service Description: </strong>@p.Description</p>
+                </div>
+            }
+        </div>
+    </div>
+
+</div>
