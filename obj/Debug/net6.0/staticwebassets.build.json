@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "98HV8nr0Ln+O+4hLKAA1diK184H3vxCPRkYinw2Lri0=",
+  "Hash": "79fOLUjyTPmACXybsb2GW0hQBEzFTcihrWsnf3WzanU=",
   "Source": "CSharpProject",
   "BasePath": "_content/CSharpProject",
   "Mode": "Default",
@@ -51,23 +51,6 @@
       "OriginalItemSpec": "C:\\Users\\username\\Desktop\\CodingDojo\\CSharp\\CSharpProject\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\CSharpProject.bundle.scp.css"
     },
     {
-      "Identity": "C:\\Users\\username\\Desktop\\CodingDojo\\CSharp\\CSharpProject\\wwwroot\\css\\facial1.jpg",
-      "SourceId": "CSharpProject",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\username\\Desktop\\CodingDojo\\CSharp\\CSharpProject\\wwwroot\\",
-      "BasePath": "_content/CSharpProject",
-      "RelativePath": "css/facial1.jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\facial1.jpg"
-    },
-    {
       "Identity": "C:\\Users\\username\\Desktop\\CodingDojo\\CSharp\\CSharpProject\\wwwroot\\css\\facial10.jpg",
       "SourceId": "CSharpProject",
       "SourceType": "Discovered",
@@ -100,23 +83,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\facial11.jpg"
-    },
-    {
-      "Identity": "C:\\Users\\username\\Desktop\\CodingDojo\\CSharp\\CSharpProject\\wwwroot\\css\\facial2.jpg",
-      "SourceId": "CSharpProject",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\username\\Desktop\\CodingDojo\\CSharp\\CSharpProject\\wwwroot\\",
-      "BasePath": "_content/CSharpProject",
-      "RelativePath": "css/facial2.jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\facial2.jpg"
     },
     {
       "Identity": "C:\\Users\\username\\Desktop\\CodingDojo\\CSharp\\CSharpProject\\wwwroot\\css\\facial3.jpg",
@@ -153,23 +119,6 @@
       "OriginalItemSpec": "wwwroot\\css\\facial6.jpg"
     },
     {
-      "Identity": "C:\\Users\\username\\Desktop\\CodingDojo\\CSharp\\CSharpProject\\wwwroot\\css\\facial7.jpg",
-      "SourceId": "CSharpProject",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\username\\Desktop\\CodingDojo\\CSharp\\CSharpProject\\wwwroot\\",
-      "BasePath": "_content/CSharpProject",
-      "RelativePath": "css/facial7.jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\facial7.jpg"
-    },
-    {
       "Identity": "C:\\Users\\username\\Desktop\\CodingDojo\\CSharp\\CSharpProject\\wwwroot\\css\\facial8.jpg",
       "SourceId": "CSharpProject",
       "SourceType": "Discovered",
@@ -202,23 +151,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\facial9.jpg"
-    },
-    {
-      "Identity": "C:\\Users\\username\\Desktop\\CodingDojo\\CSharp\\CSharpProject\\wwwroot\\css\\HotStone.jpg",
-      "SourceId": "CSharpProject",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\username\\Desktop\\CodingDojo\\CSharp\\CSharpProject\\wwwroot\\",
-      "BasePath": "_content/CSharpProject",
-      "RelativePath": "css/HotStone.jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\HotStone.jpg"
     },
     {
       "Identity": "C:\\Users\\username\\Desktop\\CodingDojo\\CSharp\\CSharpProject\\wwwroot\\css\\hotstonebg.jpg",
@@ -306,23 +238,6 @@
       "OriginalItemSpec": "wwwroot\\css\\massagebg.jpeg"
     },
     {
-      "Identity": "C:\\Users\\username\\Desktop\\CodingDojo\\CSharp\\CSharpProject\\wwwroot\\css\\massagebg3.jpg",
-      "SourceId": "CSharpProject",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\username\\Desktop\\CodingDojo\\CSharp\\CSharpProject\\wwwroot\\",
-      "BasePath": "_content/CSharpProject",
-      "RelativePath": "css/massagebg3.jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\massagebg3.jpg"
-    },
-    {
       "Identity": "C:\\Users\\username\\Desktop\\CodingDojo\\CSharp\\CSharpProject\\wwwroot\\css\\pedi1.jpg",
       "SourceId": "CSharpProject",
       "SourceType": "Discovered",
@@ -389,6 +304,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
+    },
+    {
+      "Identity": "C:\\Users\\username\\Desktop\\CodingDojo\\CSharp\\CSharpProject\\wwwroot\\css\\spabg.jpg",
+      "SourceId": "CSharpProject",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\username\\Desktop\\CodingDojo\\CSharp\\CSharpProject\\wwwroot\\",
+      "BasePath": "_content/CSharpProject",
+      "RelativePath": "css/spabg.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\spabg.jpg"
     },
     {
       "Identity": "C:\\Users\\username\\Desktop\\CodingDojo\\CSharp\\CSharpProject\\wwwroot\\css\\stonemassage.jpg",

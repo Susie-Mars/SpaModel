@@ -1,16 +1,16 @@
 @model Posting
-<div>
+<div class="border-left border-right border-dark">
     <div class="d-flex border-bottom border-dark m-2 justify-content-between">
         <h1>Spa Model</h1>
         <div class="d-flex gap-3 mt-3">
             <a href="/" class="link-dark">Home</a>
             <form asp-action="Logout" asp-controller="Home" method="post">
-                <input type="submit" value="Logout" class="link link-dark">
+                <input type="submit" value="Logout" class="link link-light btns text-dark">
             </form>
         </div>
     </div>
     <div class="d-flex justify-content-center">
-        <div class="border border-dark m-2 p-2 w-50 bg-light">
+        <div class="border border-dark m-1 p-3 w-50 bg-light">
             <form asp-action="UpdatePost" asp-controller="Home" method="post" asp-route-postId="@Model.PostingId">
                 <div class="form-group">
                     <input asp-for="ServiceType" class="form-control form-control-sm" placeholder="Service Type">
@@ -45,7 +45,7 @@
                     <span asp-validation-for="Description" class="text-danger"></span>
                 </div>
                 <div class="d-flex justify-content-end">
-                    <input type="submit" class="mt-2 btn btn-sm btn-dark text-light" value="Update" />
+                    <input type="submit" class="mt-2 btn border border-dark btn-sm btn-light text-dark btns" value="Update" />
 
                 </div>
 

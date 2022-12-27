@@ -21,6 +21,7 @@ public class HomeController : Controller
     [HttpGet("")]
     public IActionResult Index()
     {
+        // HttpContext.Session.GetInt32("UserId");
         ViewBag.AllPosts = _context.Posts.OrderByDescending(p => p.CreatedAt).ToList();
 
         return View();

@@ -1,7 +1,11 @@
+@{
+    ViewData["Title"] = "Spa Model";
+}
+
 @model MyViewModel
 
-<div >
-    <div class="d-flex border-bottom border-dark m-2 p-1 justify-content-between navBar">
+<div class="border-left border-right border-dark bg-light">
+    <div class="d-flex border-bottom border-dark w-100 justify-content-between navBar2">
         <h1 class="">Spa Model</h1>
         <div class="d-flex gap-3 align-items-end">
             <a href="/bodytreatments" class="link-light mb-2">Body Treatments</a>
@@ -9,7 +13,7 @@
             <a href="/nailservices" class="link-light mb-2">Nail Services</a>
             <a href="/" class="link-light mb-2">Home</a>
             <form asp-action="Logout" asp-controller="Home" method="post">
-                <input type="submit" value="Logout" class="btn btn-sm btn-light m-2">
+                <input type="submit" value="Logout" class="btn btn-sm btn-light m-2 btns">
             </form>
         </div>
     </div>
@@ -22,7 +26,7 @@
             <h2>Your current posts</h2>
             @foreach(Posting p in ViewBag.AllUserPosts)
             {
-                <div class="border border-dark m-2 p-1 bg-light ">
+                <div class="border border-dark m-2 p-1 serviceDiv">
                     <p>Service Type: @p.ServiceType</p>
                     <p>Location: @p.Location</p>
                     <div class="d-flex gap-2">
@@ -42,7 +46,7 @@
                     <div class="d-flex justify-content-end align-items-center gap-3 p-2">
                         <a href="/posts/@p.PostingId/edit" class="link-dark">Edit</a>
                         <form asp-action="DestroyPost" asp-controller="Home" asp-route-postId="@p.PostingId" method="post">
-                            <input type="submit" value="Delete" class="btn btn-dark text-light btn-sm">
+                            <input type="submit" value="Delete" class="btn btn-light border border-dark text-dark btns btn-sm">
                         </form>
                     </div>
                 </div>

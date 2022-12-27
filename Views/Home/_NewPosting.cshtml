@@ -1,5 +1,5 @@
 @model Posting
-<div class="border border-dark m-2 p-2 bg-light">
+<div class="border border-dark m-2 p-2 serviceDiv">
     <form asp-action="CreatePost" asp-controller="Home" method="post">
         <div class="form-group">
             <input asp-for="ServiceType" class="form-control form-control-sm" placeholder="Service Type">
@@ -32,7 +32,7 @@
             <span asp-validation-for="Description" class="text-danger"></span>
         </div>
         <div class="d-flex justify-content-end">
-            <input type="submit" class="mt-2 btn btn-sm btn-dark text-light" value="Create Post" />
+            <input type="submit" class="mt-2 btn btn-sm btn-light border border-dark text-dark btns" value="Create Post" />
 
         </div>
 
