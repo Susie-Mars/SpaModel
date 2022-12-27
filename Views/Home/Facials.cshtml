@@ -3,7 +3,8 @@
 }
 
 @model Posting
-<div class="border-left border-right border-dark bg-light">
+<body class="bodyTag">
+<div class="border-left border-right border-dark bg-light innerBody">
     <div class="d-flex border-bottom border-dark w-100 justify-content-between navBar2">
         <h1>Spa Model</h1>
         <div class="d-flex gap-3 mt-4 p-3">
@@ -13,12 +14,12 @@
             <a href="/" class="link-light">Home</a>
         </div>
     </div>
-    <div class="d-flex align-items-center justify-content-center flex-column">
+    <div class="d-flex align-items-center justify-content-center flex-column p-4">
         <h2>All Facial Services</h2>
-        <div class="d-flex flex-wrap m-2 w-50 ">
+        <div class="d-flex flex-wrap m-2 ">
             @foreach (Posting p in ViewBag.Facials)
             {
-                <div class="border border-dark m-1 p-3 serviceDiv">
+                <div class="border border-dark m-2 p-3 serviceDiv">
                     <p><strong>Service Type:</strong> @p.ServiceType</p>
                     <p><strong>Location:</strong> @p.Location</p>
                     <div class="d-flex gap-2">
@@ -42,3 +43,4 @@
     </div>
 
 </div>
+</body>

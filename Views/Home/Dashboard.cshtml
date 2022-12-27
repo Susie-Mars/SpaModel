@@ -3,8 +3,8 @@
 }
 
 @model MyViewModel
-
-<div class="border-left border-right border-dark bg-light">
+<body class="bodyTag">
+<div class="border-left border-right border-dark innerBody">
     <div class="d-flex border-bottom border-dark w-100 justify-content-between navBar2">
         <h1 class="">Spa Model</h1>
         <div class="d-flex gap-3 align-items-end">
@@ -26,7 +26,7 @@
             <h2>Your current posts</h2>
             @foreach(Posting p in ViewBag.AllUserPosts)
             {
-                <div class="border border-dark m-2 p-1 serviceDiv">
+                <div class="border border-dark m-3 p-1 serviceDiv2">
                     <p>Service Type: @p.ServiceType</p>
                     <p>Location: @p.Location</p>
                     <div class="d-flex gap-2">
@@ -58,3 +58,4 @@
         </div>
     </div>
 </div>
+</body>

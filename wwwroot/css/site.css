@@ -33,11 +33,17 @@ body {
 }
 
 .innerBody {
-  background-color: rgba(247, 241, 241, 0.95);
+  background-color: rgba(255, 255, 255, 0.99);
   /* background-image: url("spabg.jpg"); */
   height: max-content;
-  box-shadow: 0 30px 40px rgba(0,0,0,.1);
+
 }
+
+/* .your-element {
+  border:1px solid black;
+  border-left:150px solid transparent;
+  border-right:150px solid transparent;
+} */
 
 .spaImg1 {
   margin-top: 30px;
@@ -129,6 +135,12 @@ body {
 
 .serviceDiv {
   background-color: rgb(247, 241, 241);
+  width: 325px;
+}
+
+.serviceDiv2 {
+  background-color: rgb(247, 241, 241);
+  width: 450px;
 }
 
 .serv {
