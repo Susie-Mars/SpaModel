@@ -35,7 +35,6 @@ body {
 .innerBody {
   background-color: rgba(255, 255, 255, 0.99);
   /* background-image: url("spabg.jpg"); */
-  height: max-content;
 
 }
 

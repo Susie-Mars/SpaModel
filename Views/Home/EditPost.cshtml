@@ -1,55 +1,59 @@
 @model Posting
-<div class="border-left border-right border-dark">
-    <div class="d-flex border-bottom border-dark m-2 justify-content-between">
-        <h1>Spa Model</h1>
-        <div class="d-flex gap-3 mt-3">
-            <a href="/" class="link-dark">Home</a>
-            <form asp-action="Logout" asp-controller="Home" method="post">
-                <input type="submit" value="Logout" class="link link-light btns text-dark">
-            </form>
+
+<body>
+    <div class="border-left border-right border-dark">
+        <div class="d-flex border-bottom border-dark w-100 justify-content-between navBar2">
+            <h1>Spa Model</h1>
+            <div class="d-flex gap-3 mt-3">
+                <a href="/" class="link-light mt-3">Home</a>
+                <form asp-action="Logout" asp-controller="Home" method="post">
+                    <input type="submit" value="Logout" class="link link-light btns text-dark m-2">
+                </form>
+            </div>
+        </div>
+        <div class="d-flex justify-content-center">
+            <div class="border border-dark m-1 p-3 w-50 bg-light mt-3">
+                <form asp-action="UpdatePost" asp-controller="Home" method="post" asp-route-postId="@Model.PostingId">
+                    <div class="form-group">
+                        <input asp-for="ServiceType" class="form-control form-control-sm" placeholder="Service Type">
+                        <span asp-validation-for="ServiceType" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <input asp-for="Location" class="form-control form-control-sm mt-2" placeholder="Location">
+                        <span asp-validation-for="Location" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <input asp-for="Website" class="form-control form-control-sm mt-2" placeholder="Website">
+                        <span asp-validation-for="Website" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="Date">Date:</label>
+                        <input asp-for="Date" class="form-control form-control-sm mt-2" type="date">
+                        <span asp-validation-for="Date" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="Time">Time:</label>
+                        <input asp-for="Time" class="form-control form-control-sm mt-2" type="time">
+                        <span asp-validation-for="Time" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <input asp-for="ContactInfo" class="form-control form-control-sm mt-2"
+                            placeholder="Contact Info (ex: jane@gmail.com">
+                        <span asp-validation-for="ContactInfo" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <input asp-for="Description" type="textarea" rows="5" class="form-control form-control-sm mt-2"
+                            placeholder="Service Description">
+                        <span asp-validation-for="Description" class="text-danger"></span>
+                    </div>
+                    <div class="d-flex justify-content-end">
+                        <input type="submit" class="mt-2 btn border border-dark btn-sm btn-light text-dark btns"
+                            value="Update" />
+
+                    </div>
+
+                </form>
+            </div>
         </div>
     </div>
-    <div class="d-flex justify-content-center">
-        <div class="border border-dark m-1 p-3 w-50 bg-light">
-            <form asp-action="UpdatePost" asp-controller="Home" method="post" asp-route-postId="@Model.PostingId">
-                <div class="form-group">
-                    <input asp-for="ServiceType" class="form-control form-control-sm" placeholder="Service Type">
-                    <span asp-validation-for="ServiceType" class="text-danger"></span>
-                </div>
-                <div class="form-group">
-                    <input asp-for="Location" class="form-control form-control-sm mt-2" placeholder="Location">
-                    <span asp-validation-for="Location" class="text-danger"></span>
-                </div>
-                <div class="form-group">
-                    <input asp-for="Website" class="form-control form-control-sm mt-2" placeholder="Website">
-                    <span asp-validation-for="Website" class="text-danger"></span>
-                </div>
-                <div class="form-group">
-                    <label asp-for="Date">Date:</label>
-                    <input asp-for="Date" class="form-control form-control-sm mt-2" type="date">
-                    <span asp-validation-for="Date" class="text-danger"></span>
-                </div>
-                <div class="form-group">
-                    <label asp-for="Time">Time:</label>
-                    <input asp-for="Time" class="form-control form-control-sm mt-2" type="time">
-                    <span asp-validation-for="Time" class="text-danger"></span>
-                </div>
-                <div class="form-group">
-                    <input asp-for="ContactInfo" class="form-control form-control-sm mt-2"
-                        placeholder="Contact Info (ex: jane@gmail.com">
-                    <span asp-validation-for="ContactInfo" class="text-danger"></span>
-                </div>
-                <div class="form-group">
-                    <input asp-for="Description" type="textarea" rows="5" class="form-control form-control-sm mt-2"
-                        placeholder="Service Description">
-                    <span asp-validation-for="Description" class="text-danger"></span>
-                </div>
-                <div class="d-flex justify-content-end">
-                    <input type="submit" class="mt-2 btn border border-dark btn-sm btn-light text-dark btns" value="Update" />
-
-                </div>
-
-            </form>
-        </div>
-    </div>
-</div>
+</body>
