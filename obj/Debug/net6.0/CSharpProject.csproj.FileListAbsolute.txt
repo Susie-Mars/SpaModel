@@ -33,3 +33,5 @@ C:\Users\username\Desktop\CodingDojo\CSharp\CSharpProject\obj\Debug\net6.0\refin
 C:\Users\username\Desktop\CodingDojo\CSharp\CSharpProject\obj\Debug\net6.0\CSharpProject.pdb
 C:\Users\username\Desktop\CodingDojo\CSharp\CSharpProject\obj\Debug\net6.0\CSharpProject.genruntimeconfig.cache
 C:\Users\username\Desktop\CodingDojo\CSharp\CSharpProject\obj\Debug\net6.0\ref\CSharpProject.dll
+C:\Users\username\Desktop\CodingDojo\CSharp\CSharpProject\bin\Debug\net6.0\package-lock.json
+C:\Users\username\Desktop\CodingDojo\CSharp\CSharpProject\bin\Debug\net6.0\package.json

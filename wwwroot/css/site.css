@@ -15,7 +15,7 @@ html {
 
 body {
   width: 100%;
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   background-color: rgb(247, 241, 241);
   /* box-shadow: 0 30px 40px rgba(0,0,0,.1); */
 }
@@ -27,15 +27,14 @@ body {
   background-size: cover;
 }
 
-.idxBody {
+/* .idxBody {
   /* width: 100%; */
-  background-color: white;
-}
-
-.innerBody {
+/* background-color: white;
+  margin-bottom: 50px;
+} */
+*/ .innerBody {
   background-color: rgba(255, 255, 255, 0.99);
   /* background-image: url("spabg.jpg"); */
-
 }
 
 /* .your-element {
@@ -46,12 +45,12 @@ body {
 
 .spaImg1 {
   margin-top: 30px;
-  margin:15px;
+  margin: 15px;
   background-image: url("stonemassage2.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   border: 1px solid black;
-    width: 300px;
+  width: 300px;
   height: 300px;
   display: flex;
   justify-content: center;
@@ -101,30 +100,35 @@ body {
 .photoBg {
   background-image: url("massagebg.jpeg");
   width: 100%;
+  margin-top: 75px;
+  left: 0;
+  right: 0;
   height: 600px;
   background-repeat: no-repeat;
   background-size: cover;
-
 }
 
 .navBar {
-  background-color: rgba(40, 4, 4, 0.50);
+  background-color: rgba(48, 82, 51, 0.75);
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
   color: white;
   align-items: flex-end;
   height: 75px;
-  margin-bottom: 15px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 .navBar2 {
-  background-color: rgba(40, 4, 4, 0.70);
+  background-color: rgba(40, 4, 4, 0.7);
   color: white;
   width: 100%;
   padding-left: 10px;
   align-items: flex-end;
   height: 75px;
   margin-bottom: 15px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 /* 
 .Flex {
@@ -145,7 +149,7 @@ body {
 .serv {
   width: 25%;
   display: inline-block;
-} 
+}
 
 /* .button:hover {
   background-color: rgb(40, 4, 4);
@@ -157,6 +161,7 @@ body {
 
 .spaModel {
   margin-bottom: 0px;
+  padding-left: 10px;
 }
 
 .navLinks {
@@ -175,10 +180,9 @@ a:hover {
 }
 
 .imgDivText {
-  align-items: flex-end;
-  justify-content: right;
-  margin-top: 250px;
-  margin-right: 15px;
+  align-items: center;
+  justify-content: flex-end;
+  margin-top: 75px;
 }
 
 .linkOne {
@@ -195,25 +199,22 @@ a:hover {
   line-height: 60px;
 } */
 
-#sticky-footer {
-  position: absolute;
-  width: 88%;
-  bottom: 0;
-  margin-top: 100px;
-  background-color: rgba(40, 4, 4, 0.75);
-}
-
 photosDiv {
   margin-bottom: 50px;
   padding-bottom: 50px;
 }
 
+.mainFooter {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 75px;
+  background-color: rgba(48, 82, 51, 0.75);
+  color: white;
+  text-align: center;
+}
 
-
-
-
-
-
-
-
-
+/* .socialLinks {
+  gap: 50px;
+} */
