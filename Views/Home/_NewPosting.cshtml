@@ -2,7 +2,12 @@
 <div class="border border-dark m-2 p-2 serviceDiv">
     <form asp-action="CreatePost" asp-controller="Home" method="post">
         <div class="form-group">
-            <input asp-for="ServiceType" class="form-control form-control-sm" placeholder="Service Type">
+            <select asp-for="ServiceType" class="form-control form-control-sm">
+                <option value="" disable selected hidden>Service Type</option>
+                <option value="Body Treatment">Body Treatment</option>
+                <option value="Nail Service">Nail Service</option>
+                <option value="Facial Service">Facial Service</option>
+            </select>
             <span asp-validation-for="ServiceType" class="text-danger"></span>
         </div>
         <div class="form-group">
@@ -24,15 +29,17 @@
             <span asp-validation-for="Time" class="text-danger"></span>
         </div>
         <div class="form-group">
-            <input asp-for="ContactInfo" class="form-control form-control-sm mt-2" placeholder="Contact Info (ex: jane@gmail.com">
+            <input asp-for="ContactInfo" class="form-control form-control-sm mt-2"
+                placeholder="Contact Info (ex: jane@gmail.com)">
             <span asp-validation-for="ContactInfo" class="text-danger"></span>
         </div>
         <div class="form-group">
-            <input asp-for="Description" type="textarea" rows="5" class="form-control form-control-sm mt-2" placeholder="Service Description">
+            <input asp-for="Description" type="textarea" rows="5" class="form-control form-control-sm mt-2"
+                placeholder="Service Description">
             <span asp-validation-for="Description" class="text-danger"></span>
         </div>
         <div class="d-flex justify-content-end">
-            <input type="submit" class="mt-2 btn btn-sm btn-light border border-dark text-dark btns" value="Create Post" />
+            <input type="submit" class="mt-2 btns" value="Create Post" />
 
         </div>
 

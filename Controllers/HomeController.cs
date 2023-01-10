@@ -45,6 +45,7 @@ public class HomeController : Controller
         return View();
     }
 
+
     [HttpGet("facials")]
     public IActionResult Facials()
     {
