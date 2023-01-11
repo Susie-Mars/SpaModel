@@ -36,6 +36,12 @@ public class HomeController : Controller
         return View();
     }
 
+    [HttpGet("allservices")]
+    public IActionResult AllServices()
+    {
+        ViewBag.AllPosts = _context.Posts.OrderByDescending(p => p.CreatedAt).ToList();
+        return View();
+    }
 
     [HttpGet("bodytreatments")]
     public IActionResult BodyTreatments()

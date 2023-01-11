@@ -786,11 +786,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\username\\Desktop\\CodingDojo\\CSharp\\CSharpProject\\CSharpProject.csproj",
+      "projectUniqueName": "C:\\Users\\username\\Desktop\\CodingDojo\\CSharp\\SpaModel\\CSharpProject.csproj",
       "projectName": "CSharpProject",
-      "projectPath": "C:\\Users\\username\\Desktop\\CodingDojo\\CSharp\\CSharpProject\\CSharpProject.csproj",
+      "projectPath": "C:\\Users\\username\\Desktop\\CodingDojo\\CSharp\\SpaModel\\CSharpProject.csproj",
       "packagesPath": "C:\\Users\\username\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\username\\Desktop\\CodingDojo\\CSharp\\CSharpProject\\obj\\",
+      "outputPath": "C:\\Users\\username\\Desktop\\CodingDojo\\CSharp\\SpaModel\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\username\\AppData\\Roaming\\NuGet\\NuGet.Config"
