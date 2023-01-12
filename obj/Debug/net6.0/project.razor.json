@@ -16313,11 +16313,6 @@
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\username\\Desktop\\CodingDojo\\CSharp\\SpaModel\\Views\\Home\\Privacy.cshtml",
-      "TargetPath": "Views\\Home\\Privacy.cshtml",
-      "FileKind": "mvc"
-    },
-    {
       "FilePath": "c:\\Users\\username\\Desktop\\CodingDojo\\CSharp\\SpaModel\\Views\\Home\\_Register.cshtml",
       "TargetPath": "Views\\Home\\_Register.cshtml",
       "FileKind": "mvc"
