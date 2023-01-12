@@ -16358,11 +16358,6 @@
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\username\\Desktop\\CodingDojo\\CSharp\\SpaModel\\Views\\Home\\_Like.cshtml",
-      "TargetPath": "Views\\Home\\_Like.cshtml",
-      "FileKind": "mvc"
-    },
-    {
       "FilePath": "c:\\Users\\username\\Desktop\\CodingDojo\\CSharp\\SpaModel\\Views\\Shared\\_Layout.cshtml",
       "TargetPath": "Views\\Shared\\_Layout.cshtml",
       "FileKind": "mvc"
@@ -16380,11 +16375,6 @@
     {
       "FilePath": "c:\\Users\\username\\Desktop\\CodingDojo\\CSharp\\SpaModel\\Views\\Home\\NailServices.cshtml",
       "TargetPath": "Views\\Home\\NailServices.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\username\\Desktop\\CodingDojo\\CSharp\\SpaModel\\Views\\Home\\_Unlike.cshtml",
-      "TargetPath": "Views\\Home\\_Unlike.cshtml",
       "FileKind": "mvc"
     },
     {
