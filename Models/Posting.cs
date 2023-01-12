@@ -26,6 +26,9 @@ public class Posting
     // FOR ONE TO MANY
     public int UserId {get;set;}
     public User? Creator {get;set;}
+        
+    // FOR MANY TO MANY 
+    public List<Like> PostLikes {get;set;} = new List<Like>();
 
 
     public DateTime CreatedAt { get; set; } = DateTime.Now;

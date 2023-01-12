@@ -19,6 +19,9 @@ public class User
     // FOR ONE TO MANY 
     public List<Posting> Posts {get;set;} = new List<Posting>();
 
+    // MANY TO MANY 
+    public List<Like> UserLikes {get;set;} = new List<Like>();
+
 
     public DateTime CreatedAt { get; set; } = DateTime.Now;
     public DateTime UpdatedAt { get; set; } = DateTime.Now;
