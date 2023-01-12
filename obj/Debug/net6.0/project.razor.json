@@ -16308,6 +16308,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\username\\Desktop\\CodingDojo\\CSharp\\SpaModel\\Views\\Home\\_NavbarLogged.cshtml",
+      "TargetPath": "Views\\Home\\_NavbarLogged.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\username\\Desktop\\CodingDojo\\CSharp\\SpaModel\\Views\\Home\\Privacy.cshtml",
       "TargetPath": "Views\\Home\\Privacy.cshtml",
       "FileKind": "mvc"
