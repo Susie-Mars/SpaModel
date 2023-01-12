@@ -174,10 +174,6 @@ section {
   display: inline-block;
 }
 
-/* .button:hover {
-  background-color: rgb(40, 4, 4);
-} */
-
 .btns:hover {
   background-color: rgb(70, 69, 68);
   color: white;
@@ -260,9 +256,9 @@ a:hover {
   justify-content: center;
   text-align: center;
   align-items: center;
-  margin-top: 630px;
+  margin-top: 640px;
   margin-bottom: 35px;
-  margin-left: 125px;
+  margin-left: 150px;
   border-bottom: 1px solid black;
   width: 75%;
 }
