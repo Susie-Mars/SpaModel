@@ -157,7 +157,7 @@ public class HomeController : Controller
     }
 
     [SessionCheck]
-    [HttpGet("posts/{Posting}/edit")]
+    [HttpGet("posts/{PostId}/edit")]
     public IActionResult EditPost(int postId)
     {
         Posting? postToEdit = _context.Posts.FirstOrDefault(i => i.PostingId == postId);
@@ -204,6 +204,8 @@ public class HomeController : Controller
 
         return RedirectToAction("Dashboard");
     }
+
+
 
 
 
